@@ -1,0 +1,84 @@
+.page {
+  margin: 10rem 5rem;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+  .main {
+    font-weight: 700;
+    font-size: clamp(3.2rem, 5vw, 6.4rem);
+    color: #2B2D33;
+    max-width: 560px;
+    margin-bottom: 6rem;
+    margin-right: auto;
+  }
+
+  .text {
+    display: flex;
+    flex-wrap: wrap; 
+    font-weight: 400;
+    font-size: clamp(1.6rem, 2vw, 2.4rem);
+    gap: 4rem;
+    margin-bottom: 4rem;
+    color: #555A65;
+
+    p {
+      min-width: 300px;
+      flex: 1;
+    }
+  }
+
+  .photo {
+    display: flex;
+    flex-wrap: wrap; // Перенос на маленьких экранах
+    gap: 2rem;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      flex: 1;
+      min-width: 300px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .page {
+    margin: 8rem 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    margin: 6rem 2rem;
+
+    .main {
+      font-size: 3.2rem;
+      margin-bottom: 3rem;
+    }
+
+    .text {
+      flex-direction: column;
+      gap: 2rem;
+      font-size: 1.8rem;
+    }
+
+    .photo {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .page {
+    margin: 4rem 1rem;
+
+    .main {
+      font-size: 2.4rem;
+    }
+
+    .text {
+      font-size: 1.6rem;
+    }
+  }
+}

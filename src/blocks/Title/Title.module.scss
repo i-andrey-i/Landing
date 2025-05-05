@@ -1,0 +1,30 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 24.4rem;
+    margin-bottom: 24.4rem;
+
+    .main {
+        margin-top: 0;
+        font-size: 6.4rem;
+        font-weight: 700;
+        color: #2B2D33;
+        margin-bottom: 4rem;
+        max-width: 900px;
+    }
+
+    .subtitle {
+        font-size: 1.6rem;
+        color: #555A65;
+        margin-bottom: 4rem;
+        font-weight: 400;
+        max-width: 720px;
+    }
+}
+
+.contactLink {
+	text-decoration: none;
+	display: inline-block;
+}

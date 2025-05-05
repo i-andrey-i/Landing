@@ -1,0 +1,25 @@
+.header {
+	width: 100%;
+	max-width: 90rem;
+	margin: 10rem 5rem;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.logo {
+	flex-shrink: 0;
+	img {
+		height: 2.5rem;
+		width: auto;
+
+		@media (max-width: 48rem) {
+			height: 1.875rem;
+		}
+	}
+}
+
+.contactLink {
+	text-decoration: none;
+	display: inline-block;
+}

@@ -1,0 +1,39 @@
+
+.card {
+    border-radius: 0.8rem;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 38.8rem;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    .img {
+        width: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .txtblock{
+        padding-left: 1rem;
+
+        .title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            color: #2B2D33;
+        }
+
+        .desc{
+            margin: 0;
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #555A65;
+            margin-bottom: 0.5rem;
+        }
+    }
+}

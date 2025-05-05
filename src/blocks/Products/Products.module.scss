@@ -1,0 +1,46 @@
+.block {
+    margin: 10rem 5rem;
+
+    .text {
+        text-align: left;
+        margin-bottom: 6rem;
+        display: flex;
+        align-items: center;
+
+        @media (max-width: 1240px) {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .title {
+            font-size: 6.4rem;
+            font-weight: 700;
+            color: #2B2D33;
+            max-width: 400px;
+
+            @media (max-width: 1240px) {
+                margin-bottom: 2rem;
+            }
+        }
+
+        .subtext {
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: #555A65;
+            max-width: 600px;
+            margin-left: auto;
+            text-align: right;
+
+            @media (max-width: 1240px) {
+                margin-left: 0;
+                text-align: left;
+            }
+        }
+    }
+
+    .models {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 2rem;
+    }
+}

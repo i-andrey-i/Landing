@@ -1,0 +1,51 @@
+.footer {
+  margin: 10rem 5rem;
+  color: #333;
+}
+
+.footerContainer {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; 
+}
+
+.leftSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.copyright {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #555A65;
+}
+
+.navWrapper {
+  display: flex;
+  align-items: flex-end;
+}
+
+.navBlock {
+  font-size: 0.2rem !important;
+  transform-origin: bottom right; 
+}
+
+@media (max-width: 768px) {
+  .footerContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .navWrapper {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}

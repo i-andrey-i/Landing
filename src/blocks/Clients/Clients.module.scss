@@ -1,0 +1,20 @@
+.page {
+    margin: 10rem 5rem;
+    display: flex;
+    flex-direction: column; 
+
+    .title {
+        font-weight: 700;
+        font-size: 5.5rem;
+        color: #2B2D33;
+        margin-bottom: 6.9rem; 
+    }
+
+    .logos {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 6rem; 
+        max-width: 100%; 
+    }
+}

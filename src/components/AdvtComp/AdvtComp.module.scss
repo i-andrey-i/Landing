@@ -1,0 +1,26 @@
+.block {
+  display: flex;
+  flex-direction: column;
+
+  .image {
+    width: 6.4rem;
+    height: 6.4rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: clamp(1.8rem, 2vw, 2.4rem);
+    color: #2B2D33;
+    margin-bottom: 1.6rem;
+    margin-top: 0;
+  }
+
+  .subtitle {
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 5rem;
+    font-size: clamp(1.4rem, 1.5vw, 1.6rem);
+    color: #555A65;
+  }
+}

@@ -1,0 +1,93 @@
+.block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 4.2rem 5rem;
+  gap: 4rem;
+
+  .form {
+    flex: 1;
+    
+    .title {
+      font-size: 5.5rem;
+      font-weight: 700;
+      margin-bottom: 1.6rem;
+      color: #333;
+    }
+    
+    .subtitle {
+      font-size: 1.6rem;
+      color: #9C9C9C;
+      margin-bottom: 30px;
+    }
+    
+    .formContent {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    
+    .formGroup {
+      display: flex;
+      flex-direction: column;
+      border-style: none;
+    }
+
+    .warning {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #9C9C9C;
+  }
+
+  .link {
+    color: #5900FF; 
+    cursor: pointer; 
+    
+    &:hover {
+      color: #3a02a1;
+    }
+  }
+  
+    
+    .input {
+      padding: 1rem 1rem;
+      border: none;
+      border-bottom: 1px solid #ddd;
+      font-size: 1.2rem;
+      
+      &:focus {
+        outline: none;
+        border-color: #0066cc;
+      }
+    } 
+  }
+  
+  .chatImage {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .block {
+    flex-direction: column;
+    padding: 40px 20px;
+    
+    .form {
+      max-width: 100%;
+      order: 2;
+    }
+    
+    .chatImage {
+      order: 1;
+      margin-bottom: 30px;
+    }
+  }
+}
