@@ -1,13 +1,37 @@
-# Astro + React Example
+# Лендинг "Самые лучшие станки с ЧПУ"
 
-```sh
-npm create astro@latest -- --template framework-react
-```
+Лендинг был разработан в рамках тестового задания. Основной фокус был сделан на десктопную версию, мобильная адаптация требует дополнительной доработки.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/framework-react)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/framework-react)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/framework-react/devcontainer.json)
+## 🚀 Демо
 
-This example showcases Astro working with [React](https://react.dev).
+👉 [Посмотреть лендинг](https://landing-rho-livid.vercel.app/)
 
-Write your React components as `.jsx` or `.tsx` files in your project.
+## 🛠 Технологии
+
+- **Frontend**: 
+  - [Astro](https://astro.build/) (v2.0+)
+  - [React](https://react.dev/) (v18+)
+  - [TypeScript](https://www.typescriptlang.org/) (v5+)
+- **Стили**: 
+  - SCSS модули
+  - CSS-переменные
+- **Деплой**: 
+  - Vercel (автоматический из GitHub)
+
+## 🛠 Установка и запуск
+
+1. Клонировать репозиторий:
+```bash
+git clone https://github.com/ваш-логин/название-репозитория.git
+
+2. Установить зависимости
+```bash
+npm install
+
+3. Сборка
+```bash
+npm run build
+
+4. Запуск
+```bash
+npm run dev
