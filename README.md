@@ -23,15 +23,19 @@
 1. Клонировать репозиторий:
 ```bash
 git clone https://github.com/ваш-логин/название-репозитория.git
+```
 
 2. Установить зависимости
 ```bash
 npm install
+```
 
 3. Сборка
 ```bash
 npm run build
+```
 
 4. Запуск
 ```bash
 npm run dev
+```
